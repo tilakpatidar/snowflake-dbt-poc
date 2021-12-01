@@ -1,0 +1,9 @@
+name: sfdbt
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.7
+  - pip:
+      - dbt==0.21.1
+      - dbt-snowflake==0.21.1
